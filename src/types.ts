@@ -1,4 +1,3 @@
-// src/types.ts
 import { NavigationScreenProp } from 'react-navigation';
 
 export type NavigationProps = {

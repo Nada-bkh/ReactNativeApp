@@ -1,4 +1,3 @@
-// src/screens/EventListScreen.tsx
 import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
 import { fetchEvents } from '../data/fakeData';

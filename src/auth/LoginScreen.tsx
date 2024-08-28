@@ -1,4 +1,3 @@
-// src/auth/LoginScreen.tsx
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, Alert } from 'react-native';
 import { NavigationProps } from '../types';
@@ -18,7 +17,7 @@ const LoginScreen: React.FC<NavigationProps> = ({ navigation }) => {
         navigation.navigate('Home');
       }
     } catch (error) {
-      Alert.alert('Login Failed', error.message);
+      Alert.alert('Login Failed');
     }
   };
   return (

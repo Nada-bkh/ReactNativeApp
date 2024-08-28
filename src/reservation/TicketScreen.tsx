@@ -1,4 +1,3 @@
-// src/reservation/TicketScreen.tsx
 import React from 'react';
 import { View, Text } from 'react-native';
 import QRCode from 'react-native-qrcode-svg';

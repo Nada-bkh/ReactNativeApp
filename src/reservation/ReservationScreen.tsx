@@ -1,4 +1,3 @@
-// src/reservation/ReservationScreen.tsx
 import React, { useState } from 'react';
 import { View, Text, Button } from 'react-native';
 import QRCode from 'react-native-qrcode-svg';
@@ -12,7 +11,6 @@ type RouteParams = {
     date: string;
   };
 };
-
 
 type ReservationScreenProps = NavigationProps & {
   route: {

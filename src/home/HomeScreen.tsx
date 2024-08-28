@@ -1,4 +1,3 @@
-// src/home/HomeScreen.tsx
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
